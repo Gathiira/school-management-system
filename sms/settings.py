@@ -25,7 +25,7 @@ SECRET_KEY = '(yg7e!d8t1@nf=c=#w6v(0j7(g09f$dajquzf!e*0x8ok8mb*z'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['40.76.111.162']
+ALLOWED_HOSTS = ['40.76.111.162','127.0.0.1']
 
 
 # Application definition
@@ -42,7 +42,6 @@ INSTALLED_APPS = [
 
     'rest_framework',
     'rest_framework.authtoken',
-    'rest_auth',
 
     'users.apps.UsersConfig',
     'certificate.apps.CertificateConfig',

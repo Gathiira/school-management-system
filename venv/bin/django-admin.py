@@ -1,4 +1,4 @@
-#!/home/gathiira/sms/venv/bin/python3
+#!/home/gathiira/Music/sms/venv/bin/python
 # When the django-admin.py deprecation ends, remove this script.
 import warnings
 
